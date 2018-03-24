@@ -1,6 +1,6 @@
  {
-    "name": "Getting Started Example",
+    "name": "FaceMask",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "A wide range of tools to prevent accidents on social media!",
     "manifest_version": 2
   }
