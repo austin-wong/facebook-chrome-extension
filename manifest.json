@@ -2,14 +2,13 @@
     "name": "FaceMask",
     "version": "1.0",
     "description": "A wide range of tools to prevent accidents on social media!",
-    "manifest_version": 2
-  }
-
-"content_scripts": [
+    "manifest_version": 2,
+	"content_scripts": [
   {
     "matches": [
-      "[https://www.facebook.com/]"
+      "https://www.facebook.com/*", "http://www.facebook.com/*"
     ],
     "js": ["content.js"]
   }
 ]
+}
