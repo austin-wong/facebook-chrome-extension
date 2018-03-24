@@ -1,7 +1,7 @@
 // content.js
 
 
-
+alert("hello world");
 // the confirmation script
 function postWarning(length) {
     var txt;
