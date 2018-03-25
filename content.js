@@ -1,7 +1,7 @@
 // content.js
 
 
-alert("hello world");
+confirm("<insert question here>?");
 // the confirmation script
 function postWarning(length) {
     var txt;
