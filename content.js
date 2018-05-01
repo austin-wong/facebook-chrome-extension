@@ -15,6 +15,6 @@ function postWarning(length) {
 
 document.querySelectorAll('a[data-testid="fb-ufi-likelink"]').forEach(function(element) {
 		element.addEventListener('click', function() {
-			confirm("You clicked like");
+			alert("You clicked like");
 	})
 });
